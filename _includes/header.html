@@ -1,0 +1,24 @@
+{% assign header = site.data.data.header %}
+<header class="">
+    <div class="profile">
+
+        <div class="profile-avatar">
+            {% if header.name %}
+            <img class="avatar" src="{{ site.baseurl }}/src/img/{{ header.avatar }}" alt="profile picture" />
+            {% endif %}
+        </div>
+
+        <div class="profile-name">
+            {% if header.name %}
+            <h1 class="name">{{ header.name }}</h1>
+            {% endif %}
+
+            {% if header.position %}
+            <h3 class="position">{{ header.position }}</h3>
+            {% endif %}
+
+            {% include contact.html %}
+        </div>
+
+    </div>
+</header>

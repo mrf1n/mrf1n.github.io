@@ -1,0 +1,65 @@
+<div class="contact-container container-block">
+    <ul class="list-unstyled contact-list">
+
+        {% if header.email %}
+        <li class="email"><i class="fas fa-envelope"></i>
+            <a href="mailto:{{ header.email }}">{{ header.email }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.phone %}
+        <li class="phone"><i class="fas fa-phone"></i>
+            <a href="tel:{{ header.phone }}">{{ header.phone }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.telegram %}
+        <li class="telegram"><i class="fab fa-telegram"></i>
+            <a href="https://t.me/{{ header.telegram }}" target="_blank">{{ header.telegram }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.website %}
+        <li class="website"><i class="fas fa-globe-americas"></i>
+            <a href="http://{{ header.website }}" target="_blank">{{ header.website }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.linkedin %}
+        <li class="linkedin"><i class="fab fa-linkedin"></i>
+            <a href="https://linkedin.com/in/{{ header.linkedin }}" target="_blank">{{ header.linkedin }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.github %}
+        <li class="github"><i class="fab fa-github"></i>
+            <a href="http://github.com/{{ header.github }}" target="_blank">{{ header.github }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.gitlab %}
+        <li class="gitlab"><i class="fab fa-gitlab"></i>
+            <a href="http://gitlab.com/{{ header.gitlab }}" target="_blank">{{ header.gitlab }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.bitbucket %}
+        <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+            <a href="http://bitbucket.com/{{ header.bitbucket }}" target="_blank">{{ header.bitbucket }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.stack-overflow %}
+        <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+            <a href="https://stackoverflow.com/users/{{ header.stack-overflow }}" target="_blank">{{ header.stack-overflow }}</a>
+        </li>
+        {% endif %}
+
+        {% if header.codewars %}
+        <li class="codewars"><i class="fas fa-code"></i>
+            <a href="https://www.codewars.com/users/{{ header.codewars }}/completed_solutions" target="_blank">{{ header.codewars }}</a>
+        </li>
+        {% endif %}
+
+    </ul>
+</div>

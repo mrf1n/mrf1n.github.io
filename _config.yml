@@ -1,0 +1,21 @@
+# Site Settings
+title: Sergey Konovalov
+url: 'https://mrf1n.github.io/'
+baseurl: '/mrf1n.github.io'
+description: My resume
+
+# Theme
+theme_skin: dark_gray
+chrome_mobile_color: #5BB66F
+
+# Scss
+sass:
+  sass_dir: _scss
+  style: compressed
+
+# Build settings
+compress-site: yes
+encoding: "utf-8"
+
+# Development Settings
+port: 4000

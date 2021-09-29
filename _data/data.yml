@@ -1,0 +1,102 @@
+header:
+  name: Sergey Konovalov
+  position: Java Developper
+  avatar: img.png
+
+  # Links
+  email: mrf1n@mail.ru
+  phone:
+  website:
+  linkedin: konovalov-sergey
+  github: MrF1N
+  telegram: mrf1n
+  gitlab:
+  bitbucket:
+  stack-overflow:
+  codewars:
+
+sidebar:
+  # Blocks
+  education: True
+
+
+
+  languages:
+    - idiom: Russian
+      level: Native
+
+    - idiom: English
+      level: Pre-Intermediate
+
+    - idiom: French
+      level: Basic
+
+  interests:
+    - item: Cooking
+      link:
+
+profile:
+  title: About me
+  summary: |
+    Looking for java programming.
+education:
+  - degree: Bachelor's degree
+    university: Belarusian State University of Informatics and Radioelectronics
+    time: 2016 - 2020
+    details: |
+
+  - degree: Master's degree
+    university: Belarusian State University of Informatics and Radioelectronics
+    time: 2020 - 2021
+    details: |
+
+experience:
+  - company: Netcracker Technology
+    positions:
+    - role: Lead Software Engineer
+      time: Aug 2021 - Present
+      details: |
+    - role: Senior Software Engineer
+      time: Sep 2020 - Aug 2021
+      details: |
+    - role: Software Engineer
+      time: Aug 2019 - Aug 2020
+      details: |
+    - role: Junior Software Engineer
+      time: Nov 2018 - Jul 2019
+      details: |
+
+skills:
+  title: Skills & Proficiency
+
+  toolset:
+    - domain: Back-end
+      name: Java 8 & Spring
+      level: 90%
+
+    - domain: Front-end
+      name: HTML5 & CSS & JS
+      level: 50%
+
+    - domain: Database
+      name: SQL(Oracle)
+      level: 70%
+
+    - domain: VCS
+      name: SVN & Git
+      level: 80%
+
+    - domain: CI/CD
+      name: Jenkins
+      level: 80%
+
+    - domain: Work experiance
+      name: Algorithms, Design patterns, Agile, Integration, Java Reflexion,
+      level: 80%
+
+    - domain: Personal skills
+      name: Proactivity, initiative, result-oriented, leadership skills, Strong analytical skills and creative mindset,
+      level: 80%
+
+footer: >
+  Configured with love

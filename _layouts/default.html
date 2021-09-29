@@ -1,0 +1,23 @@
+---
+
+---
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include head.html %}
+
+<body>
+<div class="site">
+    {% include header.html %}
+    <main class="">
+        {% include sidebar.html %}
+        <div class="main-body">
+            {{ content }}
+        </div>
+    </main>
+    {% include footer.html %}
+</div>
+{% include scripts.html %}
+</body>
+</html>
