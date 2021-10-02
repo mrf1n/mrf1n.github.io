@@ -1,7 +1,7 @@
 # Site Settings
 title: Sergey Konovalov
 url: 'https://mrf1n.github.io/'
-baseurl: '/mrf1n.github.io'
+baseurl: ''
 description: My resume
 
 # Theme
