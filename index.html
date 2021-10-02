@@ -2,10 +2,14 @@
 layout: default
 ---
 
-{% unless site.data.data.sidebar.education %}
-    {% include education.html %}
-{% endunless %}
-
-{% include experience.html %}
-
-{% include skills.html %}
+<div class="column-wrapper left-wrapper">
+    {% include _main/profile.html %}
+    {% include _main/education.html %}
+    {% include _main/languages.html %}
+    {% include _main/interests.html %}
+</div>
+<div class="column-wrapper right-wrapper">
+    {% include _main/experience.html %}
+    {% include _main/skills.html %}
+<!--    {% include _main/courses.html %}-->
+</div>

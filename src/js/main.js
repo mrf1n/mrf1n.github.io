@@ -1,10 +1,10 @@
 jQuery(document).ready(function($) {
 
-    $('.level-bar-inner').css('width', '0');
+    $('.skill-bar-inner').css('width', '0');
     
     $(window).on('load', function() {
 
-        $('.level-bar-inner').each(function() {
+        $('.skill-bar-inner').each(function() {
         
             var itemWidth = $(this).data('level');
             

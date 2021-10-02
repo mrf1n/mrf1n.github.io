@@ -1,0 +1,24 @@
+{% assign courses = site.data.data.courses %}
+{% if courses %}
+<section class="section courses-section">
+
+    <h2 class="section-title">
+        {{ courses.title }}
+    </h2>
+
+    {% for course in courses.items %}
+    <div class="item">
+        {% if course.link %}
+        <h4 class="name">
+            <a href="{{ course.link }}">{{ course.name }}</a>
+        </h4>
+        {% else %}
+        <h4 class="name">{{ course.name }}</h4>
+        {% endif %}
+        <h5 class="domain">{{ course.domain }}</h5>
+        <div class="level">{{ course.level }}</div>
+    </div>
+    {% endfor %}
+
+</section>
+{% endif %}

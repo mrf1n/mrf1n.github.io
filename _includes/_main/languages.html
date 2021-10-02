@@ -1,0 +1,21 @@
+{% assign languages = site.data.data.languages %}
+{% if languages %}
+<div class="section language-section">
+
+    <h2 class="section-title">
+        {{ languages.title }}
+    </h2>
+
+    <ul class="list-unstyled language-list">
+        {%for language in languages.items %}
+        <li class="item">
+            <div class="item-first-row">
+                <h4 class="language-name">{{ language.name }}</h4>
+                <div class="language-level">{{ language.level }}</div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+{% endif %}

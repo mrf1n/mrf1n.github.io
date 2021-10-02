@@ -3,36 +3,29 @@
   @page {
     size: A4;
   }
+
   body {
     font-size: 12pt;
+    padding: 0;
   }
 
   img.avatar {
     filter: grayscale(1);
-    -webkit-filter: greyscale(1);
+    -webkit-filter: grayscale(1);
   }
-  .main-wrapper .time {
+
+  .main .time {
     float: right;
     color: black !important;
     -webkit-print-color-adjust: exact;
-  }
-  .sidebar-wrapper {
-    position: static;
-    float: right;
-    width: 40%;
-    -webkit-print-color-adjust: exact;
-  }
-
-  .remove-container.container-block {
-    display: none;
   }
 
   footer {
     display: none;
   }
 
-  .skillset .level-bar-inner {
-    background-color: black !important;
+  .skills-list .skill-bar-inner {
+    background-color: gray !important;
     -webkit-print-color-adjust: exact;
   }
 

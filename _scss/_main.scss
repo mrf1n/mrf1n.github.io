@@ -6,64 +6,242 @@ body {
   padding: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: auto;
 }
 
 .site {
-  background:$theme-color;
+  background: $theme-color;
   max-width: 1000px;
   margin: 0 auto;
   position: relative;
-  @include box-shadow(0px 2px 4px rgba(0,0,0,0.1));
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow:         0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header {
-  background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 80%);
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 90%);
   width: 100%;
   margin-right: auto;
   margin-left: auto;
 
   .profile {
-    padding: 20px;
+    width: inherit;
+    padding: 30px;
     text-align: center;
     color: #fff;
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .profile-avatar {
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
   }
 
   .profile-name {
-    width: 70%;
+    margin: auto;
   }
 
   .avatar {
     max-width: 150px;
-    border: 0px solid #fff;
-    //border-radius: 100%;
+    border: 0 solid #fff;
+    border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
 
   .name {
     font-size: 32px;
     font-weight: 900;
+    margin-bottom: 10px;
   }
 
   .position {
     color: rgba(256, 256, 256, 0.6);
     font-size: 24px;
+    margin-bottom: 20px;
+    display:inline-block;
+    border-bottom: 2px solid $lighter-grey;
+  }
+
+  .contacts {
+    margin: auto;
+
+    .contact-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 0;
+
+      li {
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      .fas, .fab {
+        padding: 5px;
+        font-size: 20px;
+      }
+
+      a {
+        color: rgba(220, 220, 220, 0.8);
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px;
+      }
+    }
   }
 }
 
 main {
+  background: $smoky-white;
+  width: inherit;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
+  .column-wrapper {
+    padding: 0 30px;
+  }
 
+  .left-wrapper {
+    width: 35%;
+  }
+
+  .right-wrapper {
+    width: 65%;
+  }
+
+  .section {
+    margin-bottom: 60px;
+
+    .section-title {
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $theme-color;
+      margin-bottom: 15px;
+      border-bottom: 2px solid $text-grey;
+    }
+
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      color: $text-color-secondary;
+    }
+
+    h5 {
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-color-secondary;
+    }
+
+    .time {
+      color: $text-grey;
+    }
+
+    .language-list, .interests-list {
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .section:last-child {
+    margin-bottom: 0;
+  }
+
+  .education-section {
+    .item {
+      margin-bottom: 10px;
+
+      .degree {
+        margin-bottom: 2px;
+      }
+
+      .university {
+        margin-bottom: 0;
+        color: $text-grey;
+      }
+    }
+  }
+
+  .language-section, .experience-section {
+    .item-first-row {
+      position: relative;
+      overflow: hidden;
+    }
+  }
+
+  .language-section {
+    .language-name {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .language-level {
+      font-size: 16px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
+    }
+  }
+
+  .experience-section {
+    .item {
+      margin: 0 0 8px 15px;
+    }
+
+    .company-name {
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .job-title {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 15px;
+    }
+
+    .time {
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: $text-grey;
+    }
+  }
+
+  .skills-section {
+    .item {
+      margin-bottom: 15px;
+      overflow: hidden;
+    }
+
+    .skill-title {
+      font-size: 14px;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .skill-bar {
+      height: 12px;
+      background: $lighter-grey;
+    }
+
+    .skill-bar-inner {
+      height: 12px;
+      background: lighten($theme-color, 10%);
+    }
+  }
 }
 
 footer {
-
-
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 80%);
+  color: $lighter-grey;
+  padding: 12px;
+  font-size: 16px;
 }
