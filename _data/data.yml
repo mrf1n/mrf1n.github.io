@@ -33,7 +33,11 @@ languages:
     - name: Russian
       level: Native
     - name: English
-      level: Pre-Intermediate
+      level: Intermediate
+    - name: Belarusian
+      level: Native
+    - name: Polish
+      level: Basic
     - name: French
       level: Basic
 
@@ -72,18 +76,18 @@ experience:
   items:
     - company: Netcracker Technology
       positions:
-      - role: Lead Software Engineer
-        time: Aug 2021 - Present
-        details: |
-      - role: Senior Software Engineer
-        time: Sep 2020 - Aug 2021
-        details: |
-      - role: Software Engineer
-        time: Aug 2019 - Aug 2020
-        details: |
-      - role: Junior Software Engineer
-        time: Nov 2018 - Jul 2019
-        details: |
+        - role: Lead Software Engineer
+          time: Aug 2021 - Present
+          details: |
+        - role: Senior Software Engineer
+          time: Sep 2020 - Aug 2021
+          details: |
+        - role: Software Engineer
+          time: Aug 2019 - Aug 2020
+          details: |
+        - role: Junior Software Engineer
+          time: Nov 2018 - Jul 2019
+          details: |
 
 skills:
   title: Skills & Proficiency
