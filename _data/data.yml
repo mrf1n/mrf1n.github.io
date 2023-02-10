@@ -1,19 +1,26 @@
 header:
-  name: Sergey Konovalov
+  name: Siarhei Kanavalau
   position: Java Developer
   avatar: avatar.jpg
 
   # Links
   email: sergey.konovalov.job@gmail.com
+  email-name: Siarhei Kanavalau
   phone:
   website:
   linkedin: konovalov-sergey
+  linkedin-name: Siarhei Kanavalau
   github: MrF1N
-  telegram: mrf1n
+  github-name: Mr F1N
+  telegram: kanavalau
+  telegram-name: Sergey
   gitlab:
   bitbucket:
   stack-overflow:
-  codewars:
+  codewars: mrf1n
+  codewars-name: Mr F1N
+  leetcode: mrf1n
+  leetcode-name: mrf1n
 
 profile:
   title: About me
