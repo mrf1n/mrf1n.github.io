@@ -10,17 +10,17 @@ header:
   website:
   linkedin: konovalov-sergey
   linkedin-name: Siarhei Kanavalau
-  github: MrF1N
-  github-name: Mr F1N
+  github: mrf1n
+  github-name: MrF1N
   telegram: kanavalau
   telegram-name: Sergey
   gitlab:
   bitbucket:
   stack-overflow:
-  codewars: mrf1n
-  codewars-name: Mr F1N
+  codewars:
+  codewars-name:
   leetcode: mrf1n
-  leetcode-name: mrf1n
+  leetcode-name: Leetcode
 
 profile:
   title: About me
